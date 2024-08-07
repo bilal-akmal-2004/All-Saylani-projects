@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+     font-family: "Edu AU VIC WA NT Hand", cursive;
+} 
+
+.right-bar-list-item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.right-bar-list-item:hover{
+    font-size: 23px;
+    text-decoration:line-through;
+     color: green;
+}
+
+.dropdown{
+    display: none;
+}
+
+.mid-container{
+    background-color: aqua;
+}
+
+.card-size{
+    width: 33rem;
+}
+
+
+
+/* Query stuf her */
+
+@media (max-width:1081px) {
+    .card-size{
+        width: 27rem;
+    }
+}
+
+@media (max-width:890px) {
+    .right-bar-list-item{
+        font-size: 15px;
+    }
+    .left-bar-h1{
+        font-size: 20px;
+    }
+    .card-size{
+        width: 20rem;
+    }
+}
+
+@media (max-width:668px) {
+    .card-size{
+        width: 40rem;
+    }
+}
+
+@media (max-width:470px) {
+    .right-bar-list-item{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+    }
+
+}
